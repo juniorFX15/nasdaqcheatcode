@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Signal App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Splash Screen (Subscribe Section) -->
+        <div id="splash">
+            <h1>LIL.GHOST</h1>
+            <button id="subscribeBtn">SUBSCRIBE</button>
+            <p>It will only take you 3 seconds I promise SUBSCRIBE for free to access the app best signal ever!!!</p>
+            <div id="disclaimer">
+                <p>⚠️ <strong>DISCLAIMER</strong> ⚠️</p>
+                <p>Beware of scammers claiming to be the founder of the app. The founder of <strong>NASDAQ CHEAT CODE APP</strong> is <strong>°FOREX STRATEGY° [0834200626]</strong>. Get the app for <strong>R150</strong>.</p>
+            </div>
+        </div>
+
+        <!-- Login Access Page (Hidden Initially) -->
+        <div id="login" style="display:none;">
+            <h1>Welcome to LIL.GHOST</h1>
+            <p>Enter Login Code to Access the App</p>
+            <input type="password" id="loginCode" placeholder="Enter Code">
+            <button id="loginBtn">Submit</button>
+            <p id="loginMessage"></p>
+        </div>
+
+        <!-- Main App (Hidden Initially) -->
+        <div id="app" style="display:none;">
+            <header>
+                <h1>LIL.GHOST</h1>
+                <p>Professional Trading Signals</p>
+            </header>
+            <div class="market-section">
+                <h2>GER30 Signal</h2>
+                <div id="ger30Status">Market is Closed</div>
+                <div id="ger30Countdown">Countdown: 00:00</div>
+                <div id="ger30Candle" class="candle"></div>
+            </div>
+            <div class="market-section">
+                <h2>NASDAQ Signal</h2>
+                <div id="nasdaqSignal">Signal: Waiting...</div>
+                <div id="nasdaqStrength">Signal Strength: -</div>
+                <div id="nasdaqCountdown">Countdown: 00:00</div>
+                <div id="nasdaqCandle" class="candle"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
